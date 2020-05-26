@@ -7,6 +7,52 @@ body{
     border-right: 1px solid #696969;
     box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.3);
 }
+a{
+    text-decoration: none;
+}
 header{
     padding: 45px;
+}
+header ul{
+    height: 40px;
+    margin-top: 40px;
+    font-size:0;
+    height: 40px;
+    padding: 0;
+    background-color: #555;
+}
+header li{ 
+    font-size:14px;
+    padding: 12px 20px;
+    list-style: none;
+    display: inline-block;
+    color: white;
+}
+header a{   
+    color: white;
+}
+header li:hover{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    background-color: #3f3f3f;
+}
+.container{
+    padding: 0px 45px;
+}
+.container li{
+    list-style: none;
+    height: 40px;
+    border: 1px solid grey;
+    border-collapse: ;
+    
+}
+.container li:first-child{
+    border-top: 1px soli grey;
+}
+.container ul{
+    padding: 0;    
+    width: 240px;
+}
+.container a{
+    color: #656556;
 }
