@@ -1,17 +1,16 @@
 html{
     margin: 0px 155px;
-}
     
-body{
     border-left: 1px solid #696969;
     border-right: 1px solid #696969;
-    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.3);
 }
+    
 a{
     text-decoration: none;
 }
 header{
     padding: 45px;
+    padding-bottom: 40px;
 }
 header ul{
     height: 40px;
@@ -27,6 +26,8 @@ header li{
     list-style: none;
     display: inline-block;
     color: white;
+    text-shadow: 2px 2px 5px grey;
+    
 }
 header a{   
     color: white;
@@ -37,22 +38,51 @@ header li:hover{
     background-color: #3f3f3f;
 }
 .container{
+    display: block;
     padding: 0px 45px;
 }
 .container li{
     list-style: none;
-    height: 40px;
+    max-height: 40px;
     border: 1px solid grey;
-    border-collapse: ;
-    
+    border-top:0px ;
+    padding: 12px 20px;    
 }
 .container li:first-child{
-    border-top: 1px soli grey;
+    border-top: 1px solid grey;
 }
 .container ul{
+    margin: 0;
     padding: 0;    
     width: 240px;
 }
+.container li:hover{
+    background-color:#ccc;
+}
 .container a{
     color: #656556;
+}
+.left_menu{
+    display: inline-block;
+}
+.content{
+    display: inline-block;
+}
+.content {
+    width: 880px;
+    float: right;
+}
+.content img{
+    border: 1px solid grey;
+    padding: 80px 190px;
+    align-items: center;
+}
+.left_menu{
+    padding-right: 45px;
+}
+p{
+    line-height: 25px;
+}
+footer li{
+    display:inline-block ;
 }
